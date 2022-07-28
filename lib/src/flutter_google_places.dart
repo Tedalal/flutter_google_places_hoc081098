@@ -345,7 +345,7 @@ class _AppBarPlacesAutoCompleteTextFieldState
         child: TextField(
           controller: state._queryTextController,
           autofocus: true,
-          style: widget.textStyle ?? _defaultStyle(),
+          style: const TextStyle(color: Colors.greenAccent),
           decoration:
               widget.textDecoration ?? _defaultDecoration(state.widget.hint),
           cursorColor: widget.cursorColor,
