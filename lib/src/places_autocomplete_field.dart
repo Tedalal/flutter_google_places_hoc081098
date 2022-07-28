@@ -212,7 +212,7 @@ class _LocationAutocompleteFieldState extends State<PlacesAutocompleteField> {
           )
         : Text(
             widget.hint ?? '',
-            style: const TextStyle(color: Colors.black38),
+            style: const TextStyle(color: Colors.red),
           );
 
     Widget child = Row(
